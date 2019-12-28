@@ -66,7 +66,7 @@ def border(x,y):
     if inRange(x-1,y-1):
         dots+=[(x-1,y-1)]
     if inRange(x-1,y):
-        dots+=[(x,y)]
+        dots+=[(x-1,y)]
     if inRange(x-1,y+1):
         dots+=[(x-1,y+1)]
     if inRange(x,y+1):
